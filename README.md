@@ -84,8 +84,6 @@ Built during the **Agentic AI Bootcamp** by **Saudi Digital Academy (SDA)** and 
 
 - Layan Alharbi
 - Farah Alhajjaji
-- Lamees Aldekheyl
-- Renad Alfalqi
 
 **Supervisors**
 
