@@ -4,6 +4,15 @@
 
 TELORA is an AI-based telecom package design and recommendation system. You tell it what you need, how much of it you use and how much you want to spend, and it builds your plan from real packages and add-ons, like puzzle pieces that fit around you.
 
+
+## 🚀 Live Demo
+
+**[Open the live demo →](https://layanharbi9.github.io/TELORA/)**
+
+Sign in as a **Customer** to design a plan, or as **Admin** to explore the operations console.
+
+> The demo is a static build on GitHub Pages ([`gh-pages`](https://github.com/Layanharbi9/TELORA/tree/gh-pages) branch). It uses the same interface with data recorded from TELORA's FastAPI service and SQLite catalog, and it replays real agent runs, so it makes no OpenAI calls. To run the full system with live agents, see **How to run TELORA** below.
+
 ---
 
 ## The idea
