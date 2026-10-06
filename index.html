@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<title>TELORA · Live Demo</title>
+<meta name="description" content="TELORA: multi-agent telecom package design & recommendation. Static demo replaying recorded agent runs.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<div id="root"></div>
+<div id="demo-bar" role="note" style="position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:9999;max-width:min(94vw,760px);display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.35rem .8rem;padding:.55rem 1rem;border-radius:999px;background:rgba(20,16,36,.92);color:#f3f0ff;font:500 12.5px/1.4 Figtree,system-ui,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.25);backdrop-filter:blur(8px)">
+  <b style="color:#c4b5fd">Live demo</b><span id="demo-note">Recorded TELORA data · no AI calls · changes reset on reload</span>
+  <a href="https://github.com/Layanharbi9/TELORA" target="_blank" rel="noopener" style="color:#f9a8d4;font-weight:700;text-decoration:none">View code ↗</a>
+</div>
+<script>window.addEventListener('telora-demo-note',e=>{document.getElementById('demo-note').textContent=e.detail||'Recorded TELORA data · no AI calls · changes reset on reload';});</script>
+
+
+<!-- order matters: core -> api -> pages -> app -->
+<script src="js/core.js"></script>
+<script src="js/api.js"></script>
+<script src="js/design.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/app.js"></script>
